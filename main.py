@@ -18,7 +18,7 @@ load_dotenv()
 print("PINECONE_API_KEY:", os.getenv("PINECONE_API_KEY"))
 
 # Streamlit app title
-st.title("Bangladeshi Women's Legal Help Chatbot")
+st.title("নারীর জন্য আইন")
 
 # Initialize session state variables if they don't exist
 if 'responses' not in st.session_state:
